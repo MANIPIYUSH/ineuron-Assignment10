@@ -159,3 +159,32 @@ top: -262px;left: 58px;
 
   height: 500px;
 }
+
+
+@media screen and (max-width: 400px) {
+    .item{
+        display:flex ;
+        flex-direction: column;
+        margin-left: 150px;
+        font-size: 10px;
+    }
+    .text h1{
+
+        font-size: 20px;
+    }
+    .innovation{
+
+      position: relative;
+      left: -400px;top: 60px;
+     background-color: brown;
+    }
+    .puzzle{
+        position: relative;
+        left: -650px;top: 560px;
+       background-color: brown;
+      }
+      .vl{
+        display: none;
+      }
+  }
+  
